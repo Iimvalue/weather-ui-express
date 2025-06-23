@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { History, Clock, MapPin, Thermometer, Cloud, Eye } from 'lucide-react';
-import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Alert, AlertDescription } from '../components/ui/alert';
 
 const API_BASE = 'https://weather-api-server-vq8x.onrender.com';
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router';
-import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Alert, AlertDescription } from '../components/ui/alert';
 
 const API_BASE = 'https://weather-api-server-vq8x.onrender.com';
 
